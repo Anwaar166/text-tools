@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Text-tool",
+  "short_name": "textutils",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
