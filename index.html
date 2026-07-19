@@ -11,6 +11,7 @@
     <meta name="author" content="Qazi Anwaar Ahmed">
     <meta name="theme-color" content="#6D4CFF">
     <title>TextUtils - Free Online Text Converter & Formatter</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
@@ -26,11 +27,14 @@
 <body>
     <main>
         <div class="heading">
-            <h1>TextUtils
-            </h1>
+            <h1>TextUtils</h1>
         </div>
         <div class="container">
-            <h2>Enter your text</h2>
+                        <div class="textAndDropdown">
+                            <h2>Enter your text</h2>
+                            <p id="wordCount">0 / 500 words</p>
+                        </div>
+
             <textarea class="textarea" placeholder="Type or paste your text here..."></textarea>
             <div class="textAndDropdown">
                 <select class="text-select">
@@ -44,7 +48,7 @@
                     <option value="word-count">Word Count</option>
                     <option value="char-count">Character Count</option>
                 </select>
-                                <button id="btn">UPPERCASE</button>
+                <button id="btn">UPPERCASE</button>
 
             </div>
         </div>
